@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/drawable-v24/btn_bg.xml" value="0.1" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/drawable-v24/ic_facebook.xml" value="0.1" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/drawable-v24/ic_security.xml" value="0.1" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/drawable-v24/input_bg.xml" value="0.1" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_deseaseidentify.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_fert1.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_fert2.xml" value="0.1796875" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_fertilizercalculator.xml" value="0.1" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_main.xml" value="0.165625" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_mainpage1.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_measurefertilizer.xml" value="0.1" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_pest.xml" value="0.1640625" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_pestidentify.xml" value="0.165625" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/layout/activity_start.xml" value="0.1796875" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/TEJU D/OneDrive/Desktop/miniproject_android/kisan_help/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

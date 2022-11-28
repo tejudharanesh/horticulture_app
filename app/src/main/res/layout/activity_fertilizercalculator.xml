@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:backgroundTint="@color/black"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical"
+    tools:context=".fertilizercalculator">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorwhite">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/fruitcrop"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:background="@color/parrot"
+                android:drawablePadding="10dp"
+                android:text="Fruit Crops"
+                android:textAlignment="center"
+                android:textColor="@color/cyan"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.110000014" />
+            <ImageButton
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:contentDescription="mango"
+                app:srcCompat="@drawable/mango" />
+
+            <ImageButton
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/guava" />
+
+            <ImageButton
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/banana" />
+
+            <ImageButton
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/papaya" />
+
+            <ImageButton
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/acid_lime" />
+
+            <ImageButton
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/sapota" />
+
+            <ImageButton
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/sweetorange" />
+
+            <ImageButton
+                android:id="@+id/image8"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/grapes" />
+
+
+            <ImageButton
+                android:id="@+id/image9"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/pineapple" />
+
+            <ImageButton
+                android:id="@+id/image10"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/pomegranate" />
+
+            <ImageButton
+                android:id="@+id/image11"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/jackfruit" />
+
+            <ImageButton
+                android:id="@+id/image12"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/pear" />
+
+            <TextView
+                android:id="@+id/vegetablecrop"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:background="@color/parrot"
+                android:drawablePadding="10dp"
+                android:text="Vegetable Crops"
+                android:textAlignment="center"
+                android:textColor="@color/cyan"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.110000014" />
+
+            <ImageButton
+                android:id="@+id/image13"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/tomato" />
+
+            <ImageButton
+                android:id="@+id/image14"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/bhendi" />
+
+            <ImageButton
+                android:id="@+id/image15"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/brinjal" />
+
+            <ImageButton
+                android:id="@+id/image16"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/chilli" />
+
+            <ImageButton
+                android:id="@+id/image17"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/bottlegourd" />
+
+            <ImageButton
+                android:id="@+id/image18"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/bittergourd" />
+
+            <ImageButton
+                android:id="@+id/image19"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/cucumber" />
+
+            <ImageButton
+                android:id="@+id/image20"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/watermelon" />
+
+            <ImageButton
+                android:id="@+id/image21"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/clusterbean" />
+
+            <ImageButton
+                android:id="@+id/image22"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/carrot" />
+
+            <ImageButton
+                android:id="@+id/image23"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/beetroot" />
+
+            <ImageButton
+                android:id="@+id/image24"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/radish" />
+
+            <ImageButton
+                android:id="@+id/image26"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/cauliflower" />
+
+            <ImageButton
+                android:id="@+id/image27"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/curryleaf" />
+
+            <ImageButton
+                android:id="@+id/image28"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/sweetpotato" />
+
+            <ImageButton
+                android:id="@+id/image29"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/potato" />
+
+            <ImageButton
+                android:id="@+id/image30"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/onion" />
+
+            <TextView
+                android:id="@+id/plantationcrop"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:background="@color/parrot"
+                android:drawablePadding="10dp"
+                android:text="Plantation Crops"
+                android:textAlignment="center"
+                android:textColor="@color/cyan"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.110000014" />
+            <ImageButton
+                android:id="@+id/image31"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/arecanut" />
+            <ImageButton
+                android:id="@+id/image32"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/coconut" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kisan_help">
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="Agri Administrator"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kisan_help"
+        tools:targetApi="31">
+        <activity
+            android:name=".Pest"
+            android:exported="false" />
+        <activity
+            android:name=".fert2"
+            android:exported="false" />
+        <activity
+            android:name=".fert1"
+            android:exported="false" />
+        <activity
+            android:name=".Measurefertilizer"
+            android:exported="true" />
+        <activity
+            android:name=".deseaseidentify"
+            android:exported="false" />
+        <activity
+            android:name=".pestidentify"
+            android:exported="false" />
+        <activity
+            android:name=".fertilizercalculator"
+            android:exported="false" />
+        <activity
+            android:name=".mainpage1"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".start_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
